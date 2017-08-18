@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iis6.linearlayout.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/red"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".14"
+            android:background="#ffffff"
+            android:backgroundTint="@android:color/holo_red_dark"
+
+            android:gravity="center"
+            android:text="Red" />
+
+        <Button
+            android:id="@+id/orange"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".14"
+            android:background="#ffffff"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:text="Orange" />
+
+        <Button
+            android:id="@+id/yellow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".14"
+            android:background="#ffffff"
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="center"
+            android:text="Yellow" />
+
+        <Button
+            android:id="@+id/green"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".14"
+            android:background="#ffffff"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:gravity="center"
+            android:text="Green" />
+
+        <Button
+            android:id="@+id/blue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".14"
+            android:background="#ffffff"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:text="Blue" />
+
+        <Button
+            android:id="@+id/indigo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".14"
+            android:background="#ffffff"
+            android:backgroundTint="@color/colorPrimaryDark"
+
+            android:gravity="center"
+            android:text="Indigo" />
+
+        <Button
+            android:id="@+id/voliet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".14"
+            android:background="#ffffff"
+            android:backgroundTint="@android:color/holo_purple"
+            android:gravity="center"
+            android:text="Voliet" />
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
